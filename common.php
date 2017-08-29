@@ -59,18 +59,19 @@ function scrawl_upload($files){
  * @return string json格式的string，前端应当做JSON obj处理
  */
 function scrawl_download(){
-    $img_path = $_SERVER['SERVER_NAME'].'/'.config('scrawl_path');
+    $img_path = config('scrawl_path');
     $upload_path = dirname(dirname(__FILE__)).'\\'.config('scrawl_path');
-    $files = glob($upload_path.'\\'.config('scrawl_suffix'));
+    $files = glob($upload_path.'\\*'.config('scrawl_suffix'));
     for($i = 0;$i<count($files);$i++ ){
-        $files[$i] = '/'.$img_path.'/'.basename($files[$i]);
+        $files[$i] =$img_path.'/'.basename($files[$i]);
     }
     return json_encode($files);
 }
 
 /**
  * 通过base64，存成一个文件。
- * @param $data stirng base64编码
+ * @param $data
+ * @return int
  */
 function scrawl_upload_base64($data){
     if(str_starts_with($data,'data')){
