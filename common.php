@@ -103,7 +103,7 @@ function submit($info){
         $headers .= '`'.$value.'`,';
     }
     $headers = rtrim($values,',');
-    $sql ="INSERT INTO ".config('db_person_t')." ".$headers.' VALUES ('.$values.');';
+    $sql ="INSERT INTO ".config('db_person_t')." (".$headers.") VALUES (".$values.");";
 
     $mysqli = new mysqli(config('db_host'),config('db_username'),config('db_password'),config('db_name'),config('db_port'));
     if(mysqli_connect_errno()){

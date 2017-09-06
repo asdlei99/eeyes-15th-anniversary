@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b317db3-0a9b-47a7-9bc4-aa0757567710" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/common.php.example" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common.php" afterPath="$PROJECT_DIR$/common.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,8 +26,8 @@
       <file leaf-file-name="common.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/common.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="88" column="3" lean-forward="true" selection-start-line="88" selection-start-column="3" selection-end-line="88" selection-end-column="3" />
+            <state relative-caret-position="537">
+              <caret line="107" column="92" lean-forward="true" selection-start-line="107" selection-start-column="92" selection-end-line="107" selection-end-column="92" />
               <folding>
                 <element signature="e#382#421#0#PHP" expanded="false" />
                 <element signature="n#config#0;n#!!top" expanded="false" />
@@ -41,10 +38,13 @@
                 <element signature="e#1299#1354#0#PHP" expanded="false" />
                 <element signature="n#scrawl_download#0;n#!!top" expanded="false" />
                 <element signature="n#scrawl_upload_base64#0;n#!!top" expanded="false" />
-                <element signature="n#submit#0;n#!!top" expanded="false" />
-                <marker date="1504709300288" expanded="true" signature="2618:2630" ph="INSERT INTO ${config('db_person_t')}... " />
-                <marker date="1504709300288" expanded="true" signature="2618:2689" ph="INSERT INTO ${config('db_person_t')}... " />
-                <marker date="1504709300288" expanded="true" signature="3285:3299" ph="SELECT * FRO... ${config('db_name')}" />
+                <marker date="1504711839936" expanded="true" signature="2618:2630" ph="INSERT INTO ${config('db_person_t')}... " />
+                <marker date="1504711839936" expanded="true" signature="2618:2668" ph="INSERT INTO ${config('db_person_t')}... " />
+                <marker date="1504711839936" expanded="true" signature="2618:2669" ph="INSERT INTO ${config('db_person_t')}... " />
+                <marker date="1504711839936" expanded="true" signature="2618:2679" ph="INSERT INTO ${config('db_person_t')}... " />
+                <marker date="1504711839936" expanded="true" signature="2618:2690" ph="INSERT INTO ${config('db_person_t')}... " />
+                <marker date="1504711839936" expanded="true" signature="2618:2691" ph="INSERT INTO ${config('db_person_t')}... " />
+                <marker date="1504711839936" expanded="true" signature="3287:3301" ph="SELECT * FRO... ${config('db_name')}" />
               </folding>
             </state>
           </provider>
@@ -144,12 +144,12 @@
       <workItem from="1504353920680" duration="886000" />
       <workItem from="1504436681709" duration="13000" />
       <workItem from="1504438933386" duration="5619000" />
-      <workItem from="1504709047151" duration="1425000" />
+      <workItem from="1504709047151" duration="1941000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8940000" />
+    <option name="totallyTimeSpent" value="9456000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -215,10 +215,13 @@
             <element signature="e#1299#1354#0#PHP" expanded="false" />
             <element signature="n#scrawl_download#0;n#!!top" expanded="false" />
             <element signature="n#scrawl_upload_base64#0;n#!!top" expanded="false" />
-            <element signature="n#submit#0;n#!!top" expanded="false" />
-            <marker date="1504709300288" expanded="true" signature="2618:2630" ph="INSERT INTO ${config('db_person_t')}... " />
-            <marker date="1504709300288" expanded="true" signature="2618:2689" ph="INSERT INTO ${config('db_person_t')}... " />
-            <marker date="1504709300288" expanded="true" signature="3285:3299" ph="SELECT * FRO... ${config('db_name')}" />
+            <marker date="1504711839936" expanded="true" signature="2618:2630" ph="INSERT INTO ${config('db_person_t')}... " />
+            <marker date="1504711839936" expanded="true" signature="2618:2668" ph="INSERT INTO ${config('db_person_t')}... " />
+            <marker date="1504711839936" expanded="true" signature="2618:2669" ph="INSERT INTO ${config('db_person_t')}... " />
+            <marker date="1504711839936" expanded="true" signature="2618:2679" ph="INSERT INTO ${config('db_person_t')}... " />
+            <marker date="1504711839936" expanded="true" signature="2618:2690" ph="INSERT INTO ${config('db_person_t')}... " />
+            <marker date="1504711839936" expanded="true" signature="2618:2691" ph="INSERT INTO ${config('db_person_t')}... " />
+            <marker date="1504711839936" expanded="true" signature="3287:3301" ph="SELECT * FRO... ${config('db_name')}" />
           </folding>
         </state>
       </provider>
@@ -245,10 +248,13 @@
             <element signature="e#1299#1354#0#PHP" expanded="false" />
             <element signature="n#scrawl_download#0;n#!!top" expanded="false" />
             <element signature="n#scrawl_upload_base64#0;n#!!top" expanded="false" />
-            <element signature="n#submit#0;n#!!top" expanded="false" />
-            <marker date="1504709300288" expanded="true" signature="2618:2630" ph="INSERT INTO ${config('db_person_t')}... " />
-            <marker date="1504709300288" expanded="true" signature="2618:2689" ph="INSERT INTO ${config('db_person_t')}... " />
-            <marker date="1504709300288" expanded="true" signature="3285:3299" ph="SELECT * FRO... ${config('db_name')}" />
+            <marker date="1504711839936" expanded="true" signature="2618:2630" ph="INSERT INTO ${config('db_person_t')}... " />
+            <marker date="1504711839936" expanded="true" signature="2618:2668" ph="INSERT INTO ${config('db_person_t')}... " />
+            <marker date="1504711839936" expanded="true" signature="2618:2669" ph="INSERT INTO ${config('db_person_t')}... " />
+            <marker date="1504711839936" expanded="true" signature="2618:2679" ph="INSERT INTO ${config('db_person_t')}... " />
+            <marker date="1504711839936" expanded="true" signature="2618:2690" ph="INSERT INTO ${config('db_person_t')}... " />
+            <marker date="1504711839936" expanded="true" signature="2618:2691" ph="INSERT INTO ${config('db_person_t')}... " />
+            <marker date="1504711839936" expanded="true" signature="3287:3301" ph="SELECT * FRO... ${config('db_name')}" />
           </folding>
         </state>
       </provider>
@@ -275,10 +281,13 @@
             <element signature="e#1299#1354#0#PHP" expanded="false" />
             <element signature="n#scrawl_download#0;n#!!top" expanded="false" />
             <element signature="n#scrawl_upload_base64#0;n#!!top" expanded="false" />
-            <element signature="n#submit#0;n#!!top" expanded="false" />
-            <marker date="1504709300288" expanded="true" signature="2618:2630" ph="INSERT INTO ${config('db_person_t')}... " />
-            <marker date="1504709300288" expanded="true" signature="2618:2689" ph="INSERT INTO ${config('db_person_t')}... " />
-            <marker date="1504709300288" expanded="true" signature="3285:3299" ph="SELECT * FRO... ${config('db_name')}" />
+            <marker date="1504711839936" expanded="true" signature="2618:2630" ph="INSERT INTO ${config('db_person_t')}... " />
+            <marker date="1504711839936" expanded="true" signature="2618:2668" ph="INSERT INTO ${config('db_person_t')}... " />
+            <marker date="1504711839936" expanded="true" signature="2618:2669" ph="INSERT INTO ${config('db_person_t')}... " />
+            <marker date="1504711839936" expanded="true" signature="2618:2679" ph="INSERT INTO ${config('db_person_t')}... " />
+            <marker date="1504711839936" expanded="true" signature="2618:2690" ph="INSERT INTO ${config('db_person_t')}... " />
+            <marker date="1504711839936" expanded="true" signature="2618:2691" ph="INSERT INTO ${config('db_person_t')}... " />
+            <marker date="1504711839936" expanded="true" signature="3287:3301" ph="SELECT * FRO... ${config('db_name')}" />
           </folding>
         </state>
       </provider>
@@ -297,10 +306,13 @@
             <element signature="e#1299#1354#0#PHP" expanded="false" />
             <element signature="n#scrawl_download#0;n#!!top" expanded="false" />
             <element signature="n#scrawl_upload_base64#0;n#!!top" expanded="false" />
-            <element signature="n#submit#0;n#!!top" expanded="false" />
-            <marker date="1504709300288" expanded="true" signature="2618:2630" ph="INSERT INTO ${config('db_person_t')}... " />
-            <marker date="1504709300288" expanded="true" signature="2618:2689" ph="INSERT INTO ${config('db_person_t')}... " />
-            <marker date="1504709300288" expanded="true" signature="3285:3299" ph="SELECT * FRO... ${config('db_name')}" />
+            <marker date="1504711839936" expanded="true" signature="2618:2630" ph="INSERT INTO ${config('db_person_t')}... " />
+            <marker date="1504711839936" expanded="true" signature="2618:2668" ph="INSERT INTO ${config('db_person_t')}... " />
+            <marker date="1504711839936" expanded="true" signature="2618:2669" ph="INSERT INTO ${config('db_person_t')}... " />
+            <marker date="1504711839936" expanded="true" signature="2618:2679" ph="INSERT INTO ${config('db_person_t')}... " />
+            <marker date="1504711839936" expanded="true" signature="2618:2690" ph="INSERT INTO ${config('db_person_t')}... " />
+            <marker date="1504711839936" expanded="true" signature="2618:2691" ph="INSERT INTO ${config('db_person_t')}... " />
+            <marker date="1504711839936" expanded="true" signature="3287:3301" ph="SELECT * FRO... ${config('db_name')}" />
           </folding>
         </state>
       </provider>
@@ -325,8 +337,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/common.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="88" column="3" lean-forward="true" selection-start-line="88" selection-start-column="3" selection-end-line="88" selection-end-column="3" />
+        <state relative-caret-position="537">
+          <caret line="107" column="92" lean-forward="true" selection-start-line="107" selection-start-column="92" selection-end-line="107" selection-end-column="92" />
           <folding>
             <element signature="e#382#421#0#PHP" expanded="false" />
             <element signature="n#config#0;n#!!top" expanded="false" />
@@ -337,10 +349,13 @@
             <element signature="e#1299#1354#0#PHP" expanded="false" />
             <element signature="n#scrawl_download#0;n#!!top" expanded="false" />
             <element signature="n#scrawl_upload_base64#0;n#!!top" expanded="false" />
-            <element signature="n#submit#0;n#!!top" expanded="false" />
-            <marker date="1504709300288" expanded="true" signature="2618:2630" ph="INSERT INTO ${config('db_person_t')}... " />
-            <marker date="1504709300288" expanded="true" signature="2618:2689" ph="INSERT INTO ${config('db_person_t')}... " />
-            <marker date="1504709300288" expanded="true" signature="3285:3299" ph="SELECT * FRO... ${config('db_name')}" />
+            <marker date="1504711839936" expanded="true" signature="2618:2630" ph="INSERT INTO ${config('db_person_t')}... " />
+            <marker date="1504711839936" expanded="true" signature="2618:2668" ph="INSERT INTO ${config('db_person_t')}... " />
+            <marker date="1504711839936" expanded="true" signature="2618:2669" ph="INSERT INTO ${config('db_person_t')}... " />
+            <marker date="1504711839936" expanded="true" signature="2618:2679" ph="INSERT INTO ${config('db_person_t')}... " />
+            <marker date="1504711839936" expanded="true" signature="2618:2690" ph="INSERT INTO ${config('db_person_t')}... " />
+            <marker date="1504711839936" expanded="true" signature="2618:2691" ph="INSERT INTO ${config('db_person_t')}... " />
+            <marker date="1504711839936" expanded="true" signature="3287:3301" ph="SELECT * FRO... ${config('db_name')}" />
           </folding>
         </state>
       </provider>
