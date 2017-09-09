@@ -23,7 +23,7 @@ if($name == 'upload'){
     die;
 }elseif($name == 'submit'){
     $info =[];
-    foreach (config('person_t_header') as $key){
+    foreach (config('table_member_header') as $key){
         $info[] = $_POST[$key];
     }
 //    exit(submit($info));
@@ -33,7 +33,10 @@ if($name == 'upload'){
 //    exit(get_info());
     echo get_info();
     die;
-}else{
+}elseif ($name == 'update_info') {
+    echo update_info();
+    die;
+}else {
 //    exit(__NO_NAME_ERROR__);
     echo __NO_NAME_ERROR__;
     die;
