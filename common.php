@@ -32,7 +32,7 @@ function config($key)
 {
     static $config = null;
     if (is_null($config)) {
-        $config = include 'config.php';
+        $config = include __DIR__ . '/config.php';
     }
     return $config[$key];
 }
@@ -58,7 +58,7 @@ function str_starts_with($haystack, $needle)
 function scrawl_upload($files)
 {
     $img_path = config('scrawl_path');
-    $upload_path = dirname(dirname(__FILE__)) . DIRECTORY_SEPARATOR . $img_path;
+    $upload_path = BASE_PATH . DIRECTORY_SEPARATOR . $img_path;
     if (!is_dir($upload_path)) {
         mkdir($upload_path, 0777, true);
     }
@@ -78,7 +78,7 @@ function scrawl_upload($files)
 function scrawl_download()
 {
     $img_path = config('scrawl_path');
-    $upload_path = dirname(dirname(__FILE__)) . DIRECTORY_SEPARATOR . config('scrawl_path');
+    $upload_path = BASE_PATH . DIRECTORY_SEPARATOR . config('scrawl_path');
     $files = glob($upload_path . DIRECTORY_SEPARATOR . '*' . config('scrawl_suffix'));
     $result = [];
     foreach ($files as $file) {

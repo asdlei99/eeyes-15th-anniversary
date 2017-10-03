@@ -5,6 +5,9 @@
  * Date: 2017-8-27
  * Time: 21:07
  */
+
+define('BASE_PATH', dirname(dirname(get_included_files()[0])));
+
 require 'common.php';
 
 switch ($_GET['name']) {
@@ -25,7 +28,7 @@ switch ($_GET['name']) {
         /**
          * 获取图片列表
          */
-        // header('Content-Type: application/json; charset=utf-8');
+        header('Content-Type: application/json; charset=utf-8');
         echo scrawl_download();
         break;
     case 'get_info':
