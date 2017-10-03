@@ -10,7 +10,7 @@ return [
 
     //数据库配置
     'db_username'         => '15th-2017-09',
-    'db_password'         => 'HdFD0NmfLio9IcVm',
+    'db_password'         => '',
     'db_port'             => '3306',
     'db_host'             => '127.0.0.1',
     'db_name'             => '15th-2017-09',
