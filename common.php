@@ -78,7 +78,7 @@ function scrawl_upload($files)
 function scrawl_download()
 {
     $img_path = config('scrawl_path');
-    $upload_path = BASE_PATH . DIRECTORY_SEPARATOR . config('scrawl_path');
+    $upload_path = BASE_PATH . DIRECTORY_SEPARATOR . $img_path;
     $files = glob($upload_path . DIRECTORY_SEPARATOR . '*' . config('scrawl_suffix'));
     $result = [];
     foreach ($files as $file) {
@@ -100,7 +100,8 @@ function scrawl_upload_base64($data)
         $data = preg_replace('#^data:image/\w+;base64,#i', '', $data);
     }
     $data = base64_decode($data);
-    $upload_path = dirname(dirname(__FILE__)) . DIRECTORY_SEPARATOR . config('scrawl_path');
+    $img_path = config('scrawl_path');
+    $upload_path = BASE_PATH . DIRECTORY_SEPARATOR . $img_path;
     if (!file_put_contents($upload_path . DIRECTORY_SEPARATOR . $_SERVER['REQUEST_TIME'] . uniqid(rand()) . config('scrawl_suffix'), $data)) {
         return __UPLOAD_ERROR__;
     } else {
